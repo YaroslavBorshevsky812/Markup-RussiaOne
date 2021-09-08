@@ -14,7 +14,7 @@
     <!-- HEADER -->
    <header class="header">
        <div class="header_item header_item-top">
-            <nav>
+            <nav class="navigation_wrapper">
                 <ul class="navigation navigation-top">
                     <li class="navigation-top_item"><a class="header_link" href="/">Контроль качества</a></li>
                     <li class="navigation-top_item"><a class="header_link" href="/">Письмо руководителю</a></li>
@@ -41,7 +41,7 @@
                     </li>
                 </ul>     
             </div>
-            <div class="phone">
+            <div class="header_phone">
                 <a class="header_link" href="/">
                     <img src="./images/phone.png" class="map-pic"></img>
                     <span class="phone_number">+7 (495) 111-22-33</span>
@@ -56,7 +56,7 @@
                <img src="./images/Сгруппировать 509.png" alt="">
            </div>
            
-            <div class="header_content">
+            <nav class="header_content">
                 <ul class="navigation navigation-bottom">
                     <li class="navigation-bottom_item"><a class="header_link" href="/">aудит</a></li>
                     <li class="navigation-bottom_item"><a class="header_link" href="/">налоги</a></li>
@@ -77,7 +77,7 @@
                     <img class="navigation-bottom_request_phone" src="./images/phone-1.png" alt="">
                     <button class="navigation-bottom_request_btn">Подать заявку</button>
                 </div>
-            </div>
+            </nav>
        </div>
    </header>
    <!-- // HEADER -->
@@ -88,7 +88,7 @@
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-              <img src="images/shutterstock_1343436362.png" alt="">
+              <img class="swiper_image" src="images/shutterstock_1343436362.png" alt="">
           </div>
           <div class="swiper-slide">
             <img src="images/shutterstock_1343436362.png" alt="">
@@ -100,6 +100,7 @@
             <img src="images/shutterstock_1343436362.png" alt="">
           </div>
         </div>
+
         <div class="main_outer">
             <div class="main_inner">
                 <div class="main_content">
@@ -151,7 +152,9 @@
                                 <path id="Многоугольник_3" data-name="Многоугольник 3" d="M6.619,1.645a1,1,0,0,1,1.763,0l5.83,10.882A1,1,0,0,1,13.33,14H1.67a1,1,0,0,1-.881-1.472Z" transform="translate(36 20) rotate(90)" fill="#fff"/>
                             </svg>
                         </div>
-                        <img class="main_tv_chanel" src="./images/f13.png" alt="">
+                        <div class="main_tv_chanel">
+                            <img class="main_tv_chanel-pic" src="./images/f13.png" alt="">
+                        </div>
                         
                     </div>
                 </div>
@@ -190,14 +193,7 @@
    </section>
 
 
-
-
-
-
-
-
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
     <script>
       var swiper = new Swiper(".mySwiper", {
         pagination: {
