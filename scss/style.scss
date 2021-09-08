@@ -33,9 +33,9 @@
 @font-face {
     font-family: 'Cera Pro';
     src: local('Cera Pro Regular'), local('Cera-Pro-Regular'),
-        url('/text/CeraPro-Regular.woff2') format('woff2'),
-        url('/text/CeraPro-Regular.woff') format('woff'),
-        url('/text/CeraPro-Regular.ttf') format('truetype');
+        url('../text/CeraPro-Regular.woff2') format('woff2'),
+        url('../text/CeraPro-Regular.woff') format('woff'),
+        url('../text/CeraPro-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }

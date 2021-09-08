@@ -1,25 +1,25 @@
 @import url(normalize.css);
 @font-face {
   font-family: 'Cera Pro';
-  src: local("Cera Pro Bold"), local("Cera-Pro-Bold"), url("/text/CeraPro-Bold.woff2") format("woff2"), url("/text/CeraPro-Bold.woff") format("woff"), url("/text/CeraPro-Bold.ttf") format("truetype");
+  src: local("Cera Pro Bold"), local("Cera-Pro-Bold"), url("../text/CeraPro-Bold.woff2") format("woff2"), url("../text/CeraPro-Bold.woff") format("woff"), url("../text/CeraPro-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: 'Cera Pro';
-  src: local("Cera Pro Light"), local("Cera-Pro-Light"), url("/text/CeraPro-Light.woff2") format("woff2"), url("/text/CeraPro-Light.woff") format("woff"), url("/text/CeraPro-Light.ttf") format("truetype");
+  src: local("Cera Pro Light"), local("Cera-Pro-Light"), url("../text/CeraPro-Light.woff2") format("woff2"), url("../text/CeraPro-Light.woff") format("woff"), url("../text/CeraPro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Cera Pro';
-  src: local("Cera Pro Medium"), local("Cera-Pro-Medium"), url("/text/CeraPro-Medium.woff2") format("woff2"), url("/text/CeraPro-Medium.woff") format("woff"), url("/text/CeraPro-Medium.ttf") format("truetype");
+  src: local("Cera Pro Medium"), local("Cera-Pro-Medium"), url("../text/CeraPro-Medium.woff2") format("woff2"), url("../text/CeraPro-Medium.woff") format("woff"), url("../text/CeraPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'Cera Pro';
-  src: local("Cera Pro Regular"), local("Cera-Pro-Regular"), url("/text/CeraPro-Regular.woff2") format("woff2"), url("/text/CeraPro-Regular.woff") format("woff"), url("/text/CeraPro-Regular.ttf") format("truetype");
+  src: local("Cera Pro Regular"), local("Cera-Pro-Regular"), url("../text/CeraPro-Regular.woff2") format("woff2"), url("../text/CeraPro-Regular.woff") format("woff"), url("../text/CeraPro-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
@@ -177,7 +177,7 @@ h3 {
       width: 164px;
       height: 100%;
       font-size: 27px;
-      background-image: url("/images/qwdqw.png");
+      background-image: url("../images/qwdqw.png");
       text-align: center;
       font-weight: 500;
       line-height: 147px;
